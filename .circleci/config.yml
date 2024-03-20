@@ -22,7 +22,7 @@ jobs:
           
 
 workflows:
-  build_now:
+  build_test_deploy:
     jobs:
       - build
       - test:
